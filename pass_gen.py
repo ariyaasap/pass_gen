@@ -95,6 +95,7 @@ def gen_wordlist(keywords: list[str], years: list[str], SpecialSymbols: str, max
 if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(
+        prog='./pass_gen.py',
         description="ยินดีต้อนรับสู่โปรแกรมสร้าง Wordlist ครับผมมมมม😘.",
         epilog="Example การใช้ :      ./pass_gen.py -k 'target' -y '2025' -n 100 > list.txt"
     )
